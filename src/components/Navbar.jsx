@@ -29,7 +29,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center h-20 px-4">
+    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div>
         <h1 className="flex flex-col items-center ">
           Travel <span>Goo.</span>
@@ -47,7 +47,7 @@ function Navbar() {
         </Link>
       </ul>
       <div className="hidden md:flex">
-        <IoMdStarOutline className="mr-3" size={20} />
+        <IoMdStarOutline className="mr-3 text-[#FF7A00]" size={20} />
         <FaRegUserCircle size={20} />
       </div>
 
@@ -55,9 +55,9 @@ function Navbar() {
 
       <div onClick={handleOpenMenu} className="md:hidden z-10">
         {openNav ? (
-          <MdClose size={25} />
+          <MdClose className="text-black" size={25} />
         ) : (
-          <MdMenuOpen className="text-black" size={25} />
+          <MdMenuOpen size={25} />
         )}
       </div>
 
@@ -66,7 +66,7 @@ function Navbar() {
       <div
         className={
           openNav
-            ? "absolute left-0 top-0 w-full bg-gray-100 px-4 py-7 flex flex-col"
+            ? "absolute text-black left-0 top-0 w-full bg-gray-100 px-4 py-7 flex flex-col"
             : "absolute left-[-100%] top-0 w-full bg-gray-100 px-4 py-7 flex flex-col"
         }
       >

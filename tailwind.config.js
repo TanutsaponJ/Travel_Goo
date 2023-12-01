@@ -7,6 +7,9 @@ module.exports = {
         primaryDark: "#00a651",
         primaryLight: "#005f15",
       },
+      fontFamily: {
+        OpenSens: "Open Sans, sans-serif",
+      },
     },
   },
   plugins: [],

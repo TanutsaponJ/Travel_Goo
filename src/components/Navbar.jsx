@@ -29,17 +29,19 @@ function Navbar() {
   };
 
   return (
-    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
+    <div className="flex  w-full justify-between items-center h-20 px-4 fixed z-10 text-white">
       <div>
-        <h1 className="flex flex-col items-center ">
-          Travel <span>Goo.</span>
-        </h1>
+        <Link to="hero" spy={true} smooth={true} duration={500}>
+          <h1 className="flex flex-col items-center ">
+            Travel <span>Goo.</span>
+          </h1>
+        </Link>
       </div>
       <ul className="hidden md:flex">
-        <Link to="home" spy={true} smooth={true} duration={500}>
+        <Link to="hero" spy={true} smooth={true} duration={500}>
           <li>Home</li>
         </Link>
-        <Link to="about" spy={true} smooth={true} duration={500}>
+        <Link to="services" spy={true} smooth={true} duration={500}>
           <li>About Us</li>
         </Link>
         <Link to="package" spy={true} smooth={true} duration={500}>

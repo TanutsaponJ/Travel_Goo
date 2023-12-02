@@ -38,7 +38,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl ma-auto">
+    <div className="md:px-14 px-4 py-16 max-w-screen mx-auto bg-gray-100/60">
       <div className="text-center my-8">
         <h2 className="text-4xl text-black font-semibold mb-2">Our Clients</h2>
         <p className="text-black">
@@ -56,33 +56,35 @@ const Services = () => {
           <img src={img6} alt="companyLogo6" />
           <img src={img7} alt="companyLogo7" />
         </div>
-      </div>
-      {/* Services Card */}
-      <div className="mt-20 md:w1/2 mx-auto text-center">
-        <h2 className="text-4xl text-black font-semibold mb-3">Our Service</h2>
-        <p className="text-black">
-          Manage your entire community in a single system
-        </p>
-      </div>
-      {/* Cards */}
+        {/* Services Card */}
+        <div className="mt-20 md:w1/2 mx-auto text-center">
+          <h2 className="text-4xl text-black font-semibold mb-3">
+            Our Service
+          </h2>
+          <p className="text-black">
+            Manage your entire community in a single system
+          </p>
+        </div>
+        {/* Cards */}
 
-      <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
-        {services.map((service) => (
-          <div
-            key={service.id}
-            className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-primaryDark transition-all duration-300 flex items-center justify-center h-full"
-          >
-            <div>
-              <div className="bg-[#E8F5E9] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl ">
-                <img src={service.image} alt="" className="-ml-5" />
+        <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
+          {services.map((service) => (
+            <div
+              key={service.id}
+              className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-primaryDark transition-all duration-300 flex items-center justify-center h-full"
+            >
+              <div>
+                <div className="bg-primaryLight/10 mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl ">
+                  <img src={service.image} alt="" className="-ml-5" />
+                </div>
+                <h4 className="text-2xl font-bold text-black mb-2 px-2">
+                  {service.title}
+                </h4>
+                <p className="text-sm text-black">{service.description}</p>
               </div>
-              <h4 className="text-2xl font-bold text-black mb-2 px-2">
-                {service.title}
-              </h4>
-              <p className="text-sm text-black">{service.description}</p>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -52,7 +52,7 @@ const Destination = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center relative gap-20">
+    <div className="flex flex-col min-h-screen items-center justify-center relative gap-20 bg-gray-100/60">
       <img
         src={worldImage2}
         alt=""

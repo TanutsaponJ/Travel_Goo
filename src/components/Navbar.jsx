@@ -29,7 +29,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex  w-full justify-between items-center h-20 px-4 fixed z-10 text-white">
+    <div className="flex  w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div>
         <Link to="hero" spy={true} smooth={true} duration={500}>
           <h1 className="flex flex-col items-center ">

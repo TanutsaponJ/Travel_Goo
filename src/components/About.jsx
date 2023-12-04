@@ -14,17 +14,17 @@ const About = () => {
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen mx-auto bg-[#005853]/5">
       {/* about text */}
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8">
+      <div className="px-4 lg:px-12 max-w-screen-2xl mx-auto my-8">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
-          <div className="w-3/6">
+          <div className="w-2/5">
             <img
               src={aboutImage}
               alt="aboutImage"
               className="mx-auto rounded-md"
             />
           </div>
-          <div className="md:w-3/5 mx-auto">
-            <h2 className="text-4xl text-black font-semibold mb-4 md:w-4/5">
+          <div className="md:w-2/5 mx-auto">
+            <h2 className="text-4xl text-black font-semibold mb-10 md:w-4/5">
               The unseen of spending three years at Pixelgrade
             </h2>
             <p className="md:w-3/4 text-sm text-black mb-8">
@@ -44,7 +44,7 @@ const About = () => {
       <div className="relative min-h-[80%] flex flex-col justify-center items-center lg:px-32 px-5 mx-auto ">
         <img src={worldImage} alt="worldImage" className="absolute mx-auto" />
         <div className="md:w-1/2  top-0 flex flex-col items-center mt-8">
-          <h2 className="text-4xl text-black  font-semibold mb-7 md:w-2/3 text-center  ">
+          <h2 className="text-4xl text-black  font-semibold mb-7 md:w-2/3 text-center">
             We always try to give you
             <span className="text-primaryDark"> the best service</span>
           </h2>

@@ -6,6 +6,7 @@ import About from "./components/About";
 import Destination from "./components/Destination";
 import Packages from "./components/Packages";
 import Book from "./components/Book";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
 
           <div id="package">
             <Book />
+          </div>
+
+          <div id="package">
+            <Testimonial />
           </div>
         </div>
       </main>

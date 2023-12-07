@@ -38,7 +38,7 @@ const Book = () => {
         <p>Easy and Fast</p>
       </div>
 
-      <div className="mt-14 grid lg:flex justify-between md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
+      <div className="mt-14 grid lg:flex justify-between md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto w-full gap-10 h-full">
         <div className="flex flex-col gap-20">
           {booksCard.map((card) => (
             <div key={card.id} className="flex items-center gap-4">
@@ -54,14 +54,13 @@ const Book = () => {
           ))}
         </div>
 
-        <div className="relative ">
-          <img src={bookImage4} alt="bookImage2" className="h-full w-full" />
-          <div className="absolute lg:bottom-[50px] right-[-100px] mx-auto bottom-[-20px]">
-            <img
-              src={bookImage5}
-              alt="bookImage3"
-              className="h-full w-full mr-5"
-            />
+        <div className="mx-auto relative h-full">
+          <div>
+            <img src={bookImage4} alt="bookImage2" />
+          </div>
+
+          <div className="h-[300px] w-[400px] absolute mx-auto bottom-40 md:bottom-5 right-[-100px]">
+            <img src={bookImage5} alt="bookImage3" />
           </div>
         </div>
       </div>

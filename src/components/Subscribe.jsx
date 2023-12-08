@@ -21,7 +21,7 @@ const Subscribe = () => {
       {/* Overlay */}
       {/* <div className="absolute w-full h-full top-0 left-0 bg-[#005853]/20"></div> */}
       <div className="absolute top-0 w-full h-full flex justify-center items-center p-4 text-center">
-        <div className="relative bg-[#32DF8F]/20 w-2/3 h-[300px] flex  flex-col p-4 gap-5 rounded-tl-xl ">
+        <div className="relative bg-[#32DF8F]/20 w-full sm:w-2/3 h-[300px] flex flex-col p-4 gap-5 rounded-tl-xl ">
           <img
             src={Arrow}
             alt="Arrow"
@@ -41,8 +41,8 @@ const Subscribe = () => {
             </h2>
           </div>
 
-          <form className="flex  md:flex-col sm:flex-col justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md bg-gray-100/90">
-            <div className="w-full sm:w-auto mb-4 sm:mb-0 flex l gap-2 items-center">
+          <form className="flex flex-col justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md bg-gray-100/90">
+            <div className="w-full flex gap-2 items-center mb-4">
               <MdOutlineEmail size={20} />
               <input
                 type="email"

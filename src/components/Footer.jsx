@@ -11,7 +11,6 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
-  const Year = new Date().getFullYear();
   return (
     <footer className="relative mx-auto">
       <div className="absolute top-0 left-0 w-full  overflow-hidden">
@@ -78,7 +77,7 @@ const Footer = () => {
 
           {/* Social media link */}
         </div>
-        <div className="flex space-x-4 justify-center items-center mb-5">
+        <div className="flex space-x-4 justify-center items-center mb-5 mx-5">
           <a
             href="/"
             className="hover:text-primaryDark transform hover:scale-200 transition-all duration-200  ease-in-out "
@@ -112,7 +111,6 @@ const Footer = () => {
               >
                 Tanutsapon Jinaongkan
               </a>{" "}
-              {Year}
             </p>
           </div>
         </div>

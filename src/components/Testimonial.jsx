@@ -18,7 +18,7 @@ const Testimonial = () => {
               className="rounded-[2rem]"
             />
 
-            <div className="w-full sm:w-1/2 absolute bottom-10 right-0 mx-auto text-center bg-slate-50 opacity-90 h-[300px] sm:right-[160px] lg:right-[320px] lg:h-[200px] rounded-xl">
+            <div className="w-full sm:w-3/4 md:w-1/2 absolute bottom-10 right-0 mx-auto text-center bg-slate-50 opacity-90 h-[300px] sm:right-[80px] md:right-[160px] lg:right-[320px] lg:h-[200px] rounded-xl">
               <div className="items-center flex justify-center relative">
                 <img
                   src={profile}

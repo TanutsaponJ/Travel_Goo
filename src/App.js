@@ -8,6 +8,7 @@ import Packages from "./components/Packages";
 import Book from "./components/Book";
 import Testimonial from "./components/Testimonial";
 import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -45,6 +46,10 @@ function App() {
 
           <div id="package">
             <Subscribe />
+          </div>
+
+          <div id="footer">
+            <Footer />
           </div>
         </div>
       </main>

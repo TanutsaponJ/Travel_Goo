@@ -35,7 +35,7 @@ This project showcases a meticulously designed travel website, crafted using Fig
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | primaryDark Color | ![#00a651](https://via.placeholder.com/10/00a651?text=+) #00a651 |
-| text Color | ![#FFFFFF](https://via.placeholder.com/10/#FFFFFF?text=+) #FFFFFF |
+| text Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 | primaryLight Color | ![#005f15](https://via.placeholder.com/10/005f15?text=+) #005f15 |
 | secondary Color | ![#666666](https://via.placeholder.com/10/666666?text=+) #666666 |
 

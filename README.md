@@ -1,70 +1,90 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Travel Goo. Modern UI/UX travel website using React.js & Tailwind CSS
 
-## Available Scripts
+![Screenshot 2023-12-08 153338](https://github.com/TanutsaponJ/Travel_Goo/assets/114305352/bb941661-8c4c-4e3d-a109-e72dcdc8bfa7) 
 
-In the project directory, you can run:
+##  Description 
 
-### `npm start`
+Project Description: Travel Website Design & Development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project showcases a meticulously designed travel website, crafted using Figma for design and developed with React.js and Tailwind CSS. Figma enabled the creation of an intuitive and visually captivating interface, while React.js facilitated dynamic functionality and Tailwind CSS expedited styling for a seamless user experience. The 'Travall Goo' website embodies the fusion of design innovation and development expertise, promising an immersive journey for travel enthusiasts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo 
 
-### `npm run build`
+###  🚀 https://splendid-arithmetic-c1cbb6.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanutsapon/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/TJinaongkan)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Client:** React, TailwindCSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Design:** Figma
 
-## Learn More
+## Color Reference
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| primaryDark Color | ![#00a651](https://via.placeholder.com/10/00a651?text=+) #00a651 |
+| text Color | ![#FFFFFF](https://via.placeholder.com/10/#FFFFFF?text=+) #FFFFFF |
+| primaryLight Color | ![#005f15](https://via.placeholder.com/10/005f15?text=+) #005f15 |
+| secondary Color | ![#666666](https://via.placeholder.com/10/666666?text=+) #666666 |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Installing Example Project Built with React.js and Tailwind CSS
 
-### Analyzing the Bundle Size
+This example project is designed to showcase the integration of React.js and Tailwind CSS. To install and run the project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Prerequisites
 
-### Making a Progressive Web App
+ 📙 Node.js and npm (Node Package Manager) should be installed on your machine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### 1. Clone or Download the Repository: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open your terminal or command prompt.
+Use the git clone command to clone the project repository:
+```bash
+  git clone https://github.com/TanutsaponJ/Travel_Goo.git
+```
 
-### Deployment
+### 2. Navigate to the Project Directory:
+Use the cd command to move into the project directory:
+```bash
+  cd project-directory-name
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 3. Run the following command to install project dependencies using npm:
+Run the following command to install project dependencies using npm:
+```bash
+  npm install
+```
 
-### `npm run build` fails to minify
+### 4.Start the Development Server
+After the dependencies are installed, start the development server:
+```sql
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 5.View the Project:
+Once the development server is running, open your web browser and visit:
+```arduino
+  http://localhost:3000
+```
+
+# 📙 Additional Notes:
+✅ The project should now be running locally on your machine. Any changes made to the project files will be automatically reflected in the browser.
+
+✅ Tailwind CSS utility classes are used extensively in this project. Explore the project's source code to see how Tailwind classes are applied.
+
